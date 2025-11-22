@@ -1,0 +1,20 @@
+{
+  "name": "mtg-web-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard web (HTML/CSS/JS) + API Node/Express para Postgres (Neon) do projeto MTG",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^7.0.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
